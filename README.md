@@ -13,4 +13,10 @@ Running, Interfaces, Files, Etc.
 
         return isRinging;
     }
-    ```
+
+
+Output:
+No action taken, desk phone does not have a power button
+Ring ring
+Answering the desk phone
+
