@@ -29,7 +29,7 @@ public class MobilePhone implements ITelephone{
     @Override
     public void answer() {
         if(isRinging) {
-            System.out.println("Answering the mobile phone");
+            System.out.println("Answering the mobile phone.");
             isRinging = false;
         }
 
@@ -39,10 +39,10 @@ public class MobilePhone implements ITelephone{
     public boolean callPhone(int phoneNumber) {
         if(phoneNumber == myNumber && isOn ) {
             isRinging = true;
-            System.out.println("Melody Ring");
+            System.out.println("Melody Ring.");
         } else {
             isRinging = false;
-            System.out.println("Mobile phone is not on. Number different.");
+            System.out.println("Mobile phone is not on or Number different.");
         }
 
         return isRinging;

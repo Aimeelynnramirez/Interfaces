@@ -10,6 +10,7 @@ public class Main {
         aimeesPhone.answer();
 
         aimeesPhone = new MobilePhone(654321);
+        aimeesPhone.powerOn();
         aimeesPhone.callPhone(654321);
         aimeesPhone.answer();
 

@@ -19,4 +19,7 @@ Output:
 No action taken, desk phone does not have a power button
 Ring ring
 Answering the desk phone
+Mobile phone is powered up.
+Melody Ring.
+Answering the mobile phone.
 
